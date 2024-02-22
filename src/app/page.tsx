@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import { SearchField } from "@/components";
-import ironImage from "@/assets/iron-man.png";
+import spiderMan from "@/assets/spider-man.png";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
         <Image
           width={300}
           height={300}
-          src={ironImage}
+          src={spiderMan}
           alt="Iron Man flying"
           className="animate-[wiggle_3s_ease-in-out_infinite] w-auto h-auto"
         />
